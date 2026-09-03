@@ -159,7 +159,6 @@
   .tone-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
   .tone-card .badge{display:inline-block;font-size:10.5px;font-weight:700;color:#fff;border-radius:6px;padding:3px 8px;margin-bottom:8px}
   .tone-card.threads .badge{background:#000}
-  .tone-card.x .badge{background:#000}
   .tone-list{font-size:12.5px;color:var(--ink-2);line-height:1.85}
   .tone-example{margin-top:12px;background:var(--surface-2);border:1px solid var(--line);border-radius:9px;padding:10px 12px;font-size:12.3px;color:var(--ink-1);line-height:1.6}
   .tone-example .tag{display:block;font-size:10.5px;font-weight:700;color:var(--ink-3);margin-bottom:4px}
@@ -190,9 +189,8 @@
 
 <div class="tabbar-major">
   <div class="tabbar-major-inner">
-    <button class="tab-btn active" data-tab="overview"><span class="tb-ic">📊</span>전일자 통계<span class="tb-sub">스레드·X 통합 요약 · KPI · 정렬 규칙</span></button>
+    <button class="tab-btn active" data-tab="overview"><span class="tb-ic">📊</span>전일자 통계<span class="tb-sub">스레드 통합 요약 · KPI · 정렬 규칙</span></button>
     <button class="tab-btn" data-tab="threads"><span class="tb-ic">🧵</span>스레드 상세<span class="tb-sub">키워드 필터 · 정렬 비교 · 댓글 초안</span></button>
-    <button class="tab-btn" data-tab="x"><span class="tb-ic">✖️</span>X 상세<span class="tb-sub">수집 제약 · 대안 방안</span></button>
     <button class="tab-btn" data-tab="daily"><span class="tb-ic">📅</span>일자별 보기<span class="tb-sub">최근 7일 · 날짜 눌러서 그날 게시물 확인</span></button>
   </div>
 </div>
@@ -203,22 +201,22 @@
   <div class="tab-panel active" id="tab-overview">
     <header class="page-head">
       <div class="eyebrow">중고나라 · 그로스마케팅팀 · 전일자 요약</div>
-      <h1>전일자 통계 — 스레드·X 통합 개요</h1>
+      <h1>전일자 통계 — 스레드 통합 개요</h1>
       <div class="sub">중고나라 · 번개장터 · 중고거래 · 당근마켓 키워드 기준 · 표본 수집일 2026.09.01</div>
       <div class="meta">
-        <span><b>스캔 대상</b> Threads 4키워드 × 2탭(인기/최근) · X 1키워드("중고나라", 8/13부터 계속 로그인 실패로 미확인)</span>
-        <span><b>선정 게시물</b> 1건 — Threads 정식 집계, X는 계속 미확인</span>
-        <span><b>계정 기준</b> 로그인 상태 1개 계정 관찰치(Threads만 해당, X는 8/13부터 로그인 불가 지속)</span>
+        <span><b>스캔 대상</b> Threads 4키워드 × 2탭(인기/최근)</span>
+        <span><b>선정 게시물</b> 1건 — Threads 정식 집계</span>
+        <span><b>계정 기준</b> 로그인 상태 1개 계정 관찰치</span>
       </div>
       <div class="callout"><b>이 대시보드의 관점:</b> "오늘 언급된 글 목록"이 아니라, <b>어떤 정렬·필터 기준으로 글을 찾아야 실제로 노출·전환에 유리한지</b>를 실측으로 먼저 검증하고 그 결론에 따라 지금 댓글 달 가치가 있는 글과 워딩만 골라 담았습니다. 채널별 상세는 상단 탭에서 확인하세요.</div>
-      <div class="callout danger"><b>[오늘의 핵심 변화]</b><br>(1) 팔로워 4천명대 재테크 인플루언서(@juseek_) 계정에서 "당근 택배"(편의점 반값택배 추정)의 편리함을 자랑하며 <b>"중고나라 사요나라"라는 부정적 브랜드 비교</b>를 남긴 게시물을 확인했습니다 — 구체적 불편 사유는 명시되지 않았지만 노출 여지가 있는 계정이라 참고할 만합니다.<br>(2) 어제(8/31) 확인한 <b>대형 조직적 변종 메신저 피싱 사기 경보</b>(@reonier3299 등, 피해자 100여 명·피해액 1~2억원 추정, 중고나라 등을 미끼 채널로 명시)는 여전히 정책/보안팀 최우선 확인이 필요한 사안으로 남아 있습니다 — 오늘은 이 건에 대한 추가 확산 정황은 발견되지 않았습니다.<br>(3) X(트위터)는 8/13부터 계속 로그인이 되지 않아 오늘도 확인하지 못했습니다.</div>
+      <div class="callout danger"><b>[오늘의 핵심 변화]</b><br>(1) 팔로워 4천명대 재테크 인플루언서(@juseek_) 계정에서 "당근 택배"(편의점 반값택배 추정)의 편리함을 자랑하며 <b>"중고나라 사요나라"라는 부정적 브랜드 비교</b>를 남긴 게시물을 확인했습니다 — 구체적 불편 사유는 명시되지 않았지만 노출 여지가 있는 계정이라 참고할 만합니다.<br>(2) 어제(8/31) 확인한 <b>대형 조직적 변종 메신저 피싱 사기 경보</b>(@reonier3299 등, 피해자 100여 명·피해액 1~2억원 추정, 중고나라 등을 미끼 채널로 명시)는 여전히 정책/보안팀 최우선 확인이 필요한 사안으로 남아 있습니다 — 오늘은 이 건에 대한 추가 확산 정황은 발견되지 않았습니다.</div>
       <div class="callout danger"><b>[업무 유의사항]</b><br>(1) 브랜드 계정이 특정 유저 사연에 제품을 얹으면 "경쟁사 비방/감성 훅치기"로 캡처되어 역풍을 부를 수 있으므로 콘텐츠 발행 전 홍보 담당자와 점검 필수<br>(2) '인턴' 페르소나가 실제로는 회사 계정이라는 점이 프로필 등에 드러나지 않으면 뒷광고성 여론조작 논란 소지가 있으므로 계정 생성 및 소개에 회사 인턴이라는 부분 언급 필요</div>
     </header>
 
     <div class="kpis">
-      <div class="kpi"><div class="lbl">9/1 스캔 → 선정</div><div class="val">1<small>건</small></div><div class="note">Threads 정식 1건 — 부정적 브랜드 비교, X는 계속 미확인</div></div>
+      <div class="kpi"><div class="lbl">9/1 스캔 → 선정</div><div class="val">1<small>건</small></div><div class="note">Threads 정식 1건 — 부정적 브랜드 비교</div></div>
       <div class="kpi"><div class="lbl">정렬 결론</div><div class="val tight">인기순 노출작 중<br>최근 7일 활동분만</div><div class="note">오늘도 최근검색 탭에서 발견</div></div>
-      <div class="kpi"><div class="lbl">채널별 커버리지</div><div class="val tight">Threads 정상<br>X 8/13부터 로그인 실패 지속</div><div class="note">X상세 탭은 8/10 스냅샷 참고용 유지 · 접근성 여전히 불안정</div></div>
+      <div class="kpi"><div class="lbl">채널별 커버리지</div><div class="val tight">Threads 정상</div><div class="note">4개 키워드 × 인기/최근 검색 2탭 기준</div></div>
       <div class="kpi"><div class="lbl">안심결제·안심보상 대응 가능</div><div class="val">1<small>/1건</small></div><div class="note">반값택배 등 배송 편의성 비교 대응 가능</div></div>
       <div class="kpi"><div class="lbl">중고나라 직접 언급 불편글</div><div class="val" style="color:var(--bad)">1<small>/1건</small></div><div class="note">"중고나라 사요나라"라는 부정적 브랜드 비교 직접 언급</div></div>
     </div>
@@ -257,8 +255,8 @@
     </section>
 
     <footer>
-      <b>수집 방법:</b> Threads 웹(threads.com) 검색에서 4개 키워드를 '인기 검색'·'최근 검색' 탭으로 조회해 실제 게시물 텍스트·반응수·게시 시각을 확인했습니다. 원문은 저작권 보호 대상이므로 요약·paraphrase만 담았고, 카드 클릭 시 원문 링크로 이동합니다. X(트위터)는 8/13부터 계속 로그인이 되지 않아 오늘도 확인하지 못했습니다(X 상세 탭은 8/10 확인 시점 스냅샷을 참고용으로 유지). 오늘 확인한 1건은 Threads 최근검색 탭에서 나왔으며, 로그인 없이도 확인 가능했던 공개 게시물입니다.<br>
-      <b>한계:</b> 로그인된 계정 1개 기준 관찰치이며 개인화된 결과일 수 있습니다. Threads 인기검색 결과 순서가 매 조회마다 달라지는 것을 확인해, 재현성이 낮다는 점을 감안해서 봐야 합니다. X는 접근 가능 여부가 세션에 따라 매일 달라질 수 있어 상시 채널로 전제할 수 없습니다 — 8/13부터 9/1까지 로그인 자체가 계속 안 되고 있습니다. 8/27~8/30은 배치 갱신을 하지 못한 공백 구간입니다.
+      <b>수집 방법:</b> Threads 웹(threads.com) 검색에서 4개 키워드를 '인기 검색'·'최근 검색' 탭으로 조회해 실제 게시물 텍스트·반응수·게시 시각을 확인했습니다. 원문은 저작권 보호 대상이므로 요약·paraphrase만 담았고, 카드 클릭 시 원문 링크로 이동합니다. 오늘 확인한 1건은 Threads 최근검색 탭에서 나왔으며, 로그인 없이도 확인 가능했던 공개 게시물입니다.<br>
+      <b>한계:</b> 로그인된 계정 1개 기준 관찰치이며 개인화된 결과일 수 있습니다. Threads 인기검색 결과 순서가 매 조회마다 달라지는 것을 확인해, 재현성이 낮다는 점을 감안해서 봐야 합니다. 8/27~8/30은 배치 갱신을 하지 못한 공백 구간입니다.
     </footer>
   </div>
 
@@ -322,55 +320,13 @@
     </footer>
   </div>
 
-  <!-- ============ TAB 3: X 상세 ============ -->
-  <div class="tab-panel" id="tab-x">
-    <header class="page-head">
-      <div class="eyebrow">채널 상세 · X(트위터)</div>
-      <h1>X(트위터) 상세</h1>
-      <div class="sub">8/13, 8/14, 8/18(오늘) 직접 확인한 결과 모두 로그인이 되지 않았습니다. 8/15~8/17은 배치로 일괄 확인한 기간이라 X를 매일 개별 재확인하지는 못했지만, 동일한 패턴이 이어졌을 것으로 추정합니다. 아래 4건은 8/10에 예외적으로 접근됐을 때 확인한 참고용 스냅샷입니다.</div>
-      <div class="callout danger"><b>중요 — 재현성 없음 (여러 차례 재확인됨):</b> 8/10에는 예외적으로 접근됐었지만, 8/13·8/14·8/18에 직접 확인했을 땐 매번 로그인 화면만 뜨고 검색 결과 자체를 볼 수 없었습니다(8/15~8/17은 일괄 확인 기간이라 개별 재확인은 못 함). 세션·쿠키 상태에 좌우되는 것으로 보이며, <b>접근 가능 여부를 예측할 수 없다는 점이 다시 확인됐습니다.</b> 아래 4건은 8/10 시점의 <b>과거 참고용 스냅샷</b>이며, 정식 큐레이션 기준(최근 7일·반응순 검증 등)도 적용되지 않았습니다 — Threads처럼 매일 안정적으로 기대하면 안 됩니다.</div>
-    </header>
-
-    <section style="margin-top:24px">
-      <div class="chip-row" id="x-keyword-chips"></div>
-      <div class="lead">"중고나라" 단일 키워드로 Latest 탭을 조회했습니다. 아래 4건은 원문 캡처 기준 요약이며, 정확한 permalink는 재확인이 필요해 계정명·게시일만 표기했습니다.</div>
-
-      <div id="x-list"></div>
-    </section>
-
-    <section>
-      <div class="sec-head"><span class="n">C</span><h2>'중고나라 인턴' 톤 가이드 — X</h2></div>
-      <div class="lead">오늘 실제 X 게시물을 일부 확인했지만 표본이 적어, 아래 톤 규칙은 여전히 <b>가설 수준</b>입니다. 실제 게시물이 안정적으로 쌓이면 이 규칙을 검증·보완할 예정입니다.</div>
-      <div class="tone-grid">
-        <div class="card tone-card x">
-          <span class="badge">X 톤 규칙(가설)</span>
-          <div class="tone-list">
-            · 한글 기준 실질 체감 글자수가 짧음 — <b>한두 문장으로 압축</b><br>
-            · 해시태그 1~2개 관행 (예: #중고거래사기 #안심보상)<br>
-            · 댓글보다 <b>인용리트윗(QT)</b>이 확산에 유리한 경우가 많음<br>
-            · @멘션 답글 스레드 형태가 자연스러움
-          </div>
-        </div>
-        <div class="card">
-          <h3>댓글 초안 예시(가상)</h3>
-          <div class="tone-example"><span class="tag">중고거래 사기·분쟁 상황 대응 예시</span>이런 경우 구매확정 전까진 대금이 안 넘어가는 안심결제 써보세요. 분쟁도 가이드라인대로 처리돼요 #중고거래 #안심결제</div>
-        </div>
-      </div>
-    </section>
-
-    <footer>
-      <b>8/10 확인 당시:</b> x.com/search(Latest 탭, "중고나라" 단일 키워드)로 접근했고, 정식 큐레이션 기준(반응순 검증, 최근 7일 규칙)은 아직 적용하지 못해 위 4건은 참고용으로만 표기했습니다.<br>
-      <b>8/13~8/18 재확인 결과:</b> 직접 확인한 8/13, 8/14, 8/18 모두 로그인 화면만 뜨고 검색 결과를 볼 수 없어 업데이트하지 못했습니다(8/15~8/17은 배치 확인 기간이라 개별 재확인 생략). X 접근성은 여전히 예측 불가능한 것으로 확인되어, 주 1~2회 수동 점검 체제를 유지합니다.
-    </footer>
-  </div>
-
   <!-- ============ TAB 4: 일자별 보기 ============ -->
   <div class="tab-panel" id="tab-daily">
     <header class="page-head">
       <div class="eyebrow">일자별 보기 · 최근 7일</div>
       <h1>날짜를 눌러 그날 우리가 보고 있던 화면을 다시 확인</h1>
-      <div class="sub">아래 날짜 칩을 클릭하면 그 날짜에 <b>우리 팀이 실제로 수집·큐레이션해서 대시보드에 올렸던</b> 스레드 상세 + X 상세 내용을 그대로 다시 보여줍니다. 게시물 원문이 언제 올라왔는지(발행일)가 아니라, <b>그날 우리가 무엇을 보고 있었는지</b>가 기준입니다.</div>
-      <div class="callout info"><b>이 탭이 보여주는 세 가지:</b> (1) <b>그날의 대시보드 요약</b> — 그날 KPI·핵심 변화를 압축한 카드(구조화된 요약 기록). (2) <b>그날 수집한 스레드 게시물</b> — 스레드 상세 탭과 동일하게 🟢 오늘의 기회 / 🔵 패턴 아카이브 구분을 유지한 채로 재현. (3) <b>그날 수집한 X 게시물</b> — X 상세 탭 카드를 그대로 재현. 세 가지 모두 게시물 수집일(collectedDate) 기준이며, 기록은 2026-08-10부터 시작됩니다.</div>
+      <div class="sub">아래 날짜 칩을 클릭하면 그 날짜에 <b>우리 팀이 실제로 수집·큐레이션해서 대시보드에 올렸던</b> 스레드 상세 내용을 그대로 다시 보여줍니다. 게시물 원문이 언제 올라왔는지(발행일)가 아니라, <b>그날 우리가 무엇을 보고 있었는지</b>가 기준입니다.</div>
+      <div class="callout info"><b>이 탭이 보여주는 두 가지:</b> (1) <b>그날의 대시보드 요약</b> — 그날 KPI·핵심 변화를 압축한 카드(구조화된 요약 기록). (2) <b>그날 수집한 스레드 게시물</b> — 스레드 상세 탭과 동일하게 🟢 오늘의 기회 / 🔵 패턴 아카이브 구분을 유지한 채로 재현. 두 가지 모두 게시물 수집일(collectedDate) 기준이며, 기록은 2026-08-10부터 시작됩니다.</div>
     </header>
 
     <section style="margin-top:24px">
@@ -390,19 +346,12 @@
         <div id="daily-threads-empty" class="empty-state" style="display:none">
           <div class="dd">이 날짜에 수집한 스레드 게시물이 없습니다.</div>
         </div>
-
-        <div class="sec-head" style="margin-top:30px"><span class="n">✖️</span><h2>그날 수집한 X 게시물</h2></div>
-        <div class="lead">X 상세 탭 카드를 그대로 재현합니다.</div>
-        <div id="daily-x-list"></div>
-        <div id="daily-x-empty" class="empty-state" style="display:none">
-          <div class="dd">이 날짜에 수집한 X 게시물이 없습니다.</div>
-        </div>
       </div>
     </section>
 
     <footer>
       <b>기준:</b> "그날의 대시보드 요약"은 그날 갱신 작업을 마칠 때 KPI·핵심 변화를 캡처해 별도로 저장한 구조화 기록입니다(2026-08-10부터 축적 시작). "그날 수집한 게시물"은 각 게시물의 <b>수집일(collectedDate)</b> — 우리 팀이 그 게시물을 큐레이션해서 대시보드에 올린 날 — 기준으로 필터링한 것이며, 게시물 원문이 실제로 올라온 날짜(sortTime)와는 다른 개념입니다.<br>
-      <b>한계:</b> collectedDate 기록이 없는 과거 게시물(대부분의 "패턴 아카이브" 항목)은 이 탭에 나타나지 않습니다 — 과거 사례 전체를 찾는 용도로는 스레드 상세 / X 상세 탭을 사용하세요.
+      <b>한계:</b> collectedDate 기록이 없는 과거 게시물(대부분의 "패턴 아카이브" 항목)은 이 탭에 나타나지 않습니다 — 과거 사례 전체를 찾는 용도로는 스레드 상세 탭을 사용하세요.
     </footer>
   </div>
 
@@ -410,9 +359,9 @@
 
 <script>
 /* collectedDate = 이 게시물을 며칠에 수집/큐레이션해서 대시보드에 올렸는지(게시물 원문 발행일 sortTime과는 다른 개념).
-   ⚠ 매일 갱신 시, 그날 새로 추가하는 게시물(Threads posts / X xPosts 모두)에는
+   ⚠ 매일 갱신 시, 그날 새로 추가하는 게시물(posts)에는
    반드시 그날 날짜(YYYY-MM-DD)로 collectedDate를 넣어주세요 — "일자별 보기" 탭이 이 값을 기준으로
-   그날 수집한 스레드·X 게시물을 재현합니다. 기록이 없는 기존 항목은 collectedDate:null 로 둡니다. */
+   그날 수집한 스레드 게시물을 재현합니다. 기록이 없는 기존 항목은 collectedDate:null 로 둡니다. */
 const posts = [
   {
     id:'khkvib', handle:'khkvib', platform:'Threads', bucket:'ref', keyword:'당근마켓', collectedDate:'2026-08-10',
@@ -906,51 +855,6 @@ const posts = [
   }
 ];
 
-/* X(트위터) 상세 탭 게시물 — Threads posts 배열과 동일한 방식으로 관리합니다.
-   ⚠ 매일 갱신 시 그날 새로 추가하는 X 게시물에도 반드시 그날 날짜로 collectedDate를 넣어주세요. */
-const xPosts = [
-  {
-    id:'solbangwool', handle:'solbangwool0501', keyword:'중고나라', timeLabel:'Jul 22 · 약 3주전', collectedDate:'2026-08-10',
-    likes:6, comments:7, reposts:2, views:'1K', onlyViews:false,
-    theme:'자사 정책 불만(경쟁사 비방 아님)', risk:true,
-    summary:'7월 28일부터 중고나라 안심결제 판매 수수료가 인상된다며(판매자 1%→2.5%, 총 4.5%→6%) "팔아도 수수료, 사도 수수료... 부담이 커진다"는 불만을 남긴 글입니다.',
-    linkNote:'원문 링크 없음 · permalink 재확인 필요, 계정명·날짜로 검색해 확인 권장',
-    draft:null,
-    noteType:'risk',
-    note:'이 글은 <b>댓글 대응 대상이 아닙니다.</b> 콘텐츠로 반박하거나 해명할 사안이 아니라, 정책/PM팀에 그대로 전달해야 하는 고객 피드백입니다. 조회수 1K·좋아요 6으로 아직 크지 않지만, 수수료처럼 민감한 주제는 조기에 누적 추적하는 게 안전합니다.'
-  },
-  {
-    id:'niber', handle:'niber_111', keyword:'중고나라', timeLabel:'Jul 23', collectedDate:'2026-08-10',
-    likes:13, comments:1, reposts:1, views:'4.3K', onlyViews:false,
-    theme:'계정 피싱·보안', risk:false,
-    summary:'"다른 기기에서 중고나라 로그인했다는 알람 오면 꼭 확인하라"며, 사기범이 "본계정 주인입니다. 로그아웃시켰다"는 식으로 접근해 계정을 탈취하려 한 사례를 캡처로 공유한 경고 게시물입니다.',
-    linkNote:'원문 링크 없음 · permalink 재확인 필요',
-    draft:'공유 감사해요! 이런 계정탈취 시도는 저희 보안팀에도 바로 전달할게요 — 다들 로그인 알람 오면 꼭 본인이 한 게 맞는지 확인해주세요',
-    noteType:'verify',
-    note:'고객 대응용 댓글과 별개로, 이 피싱 패턴 자체는 <b>보안/CS팀에도 별도 전달이 필요</b>합니다.'
-  },
-  {
-    id:'aoseijun', handle:'aoseijun', keyword:'중고나라', timeLabel:'Jul 22', collectedDate:'2026-08-10',
-    likes:59, comments:0, reposts:11, views:'2.3K', onlyViews:false,
-    theme:'사기·신뢰 문제', risk:false,
-    summary:'예전에 중고나라 미개봉 스위치 사기를 당해 경찰서에 가본 적이 있다며 "조심하세요"라고 남긴 짧은 경험담입니다.',
-    linkNote:'원문 링크 없음 · permalink 재확인 필요',
-    draft:'속상하셨겠어요ㅠ 미개봉 상품은 저희 안심결제로 진행하시면 구매확정 전까진 대금이 안 넘어가서 이런 사기는 좀 줄어들어요, 다음엔 한번 이용해보세요',
-    noteType:null,
-    note:null
-  },
-  {
-    id:'kusattagreenT', handle:'kusattagreenT', keyword:'중고나라', timeLabel:'Jul 30', collectedDate:'2026-08-10',
-    likes:null, comments:null, reposts:null, views:'-', onlyViews:true,
-    theme:'가입 장벽 신호', risk:true,
-    summary:'굿즈 판매글을 다른 판매 앱에 올렸는데, 자신이 파는 것과 같은 굿즈를 닌텐도 글을 올려주면 팔겠다는 식의 제안을 받고 찝찝해서 중고나라 가입을 하지 않았다는 취지의 글입니다.',
-    linkNote:'원문 링크 없음 · permalink 재확인 필요, 내용 해석에 모호한 부분 있어 원문 재확인 권장',
-    draft:null,
-    noteType:'risk',
-    note:'요약 해석에 확신이 낮은 글입니다. 게시 전 원문을 다시 찾아 정확한 맥락(정말 중고나라 가입을 안 한 이유인지)을 재확인해주세요.'
-  }
-];
-
 const KEYWORDS = ['전체','중고나라','번개장터','중고거래','당근마켓'];
 let currentSort = 'recent';
 let currentKeyword = '전체';
@@ -971,14 +875,6 @@ function renderChips(){
   el.querySelectorAll('.chip').forEach(btn=>{
     btn.addEventListener('click', ()=>{ currentKeyword = btn.getAttribute('data-kw'); renderChips(); renderPosts(); });
   });
-
-  const xEl = document.getElementById('x-keyword-chips');
-  if(xEl){
-    xEl.innerHTML = KEYWORDS.map(kw=>{
-      const total = kw==='전체' ? xPosts.length : xPosts.filter(p=>p.keyword===kw).length;
-      return `<button class="chip" disabled>${kw} <span class="cnt">${total}</span></button>`;
-    }).join('');
-  }
 }
 
 function postCardHtml(p){
@@ -1019,57 +915,6 @@ function postCardHtml(p){
       ${cautionHtml}
       ${draftHtml}
     </div>`;
-}
-
-function xPostCardHtml(p){
-  const riskCls = p.risk ? ' risk' : '';
-  const reactionsHtml = p.onlyViews
-    ? `<div class="reactions"><span>👁 <b>${p.views}</b></span></div>`
-    : `<div class="reactions">
-        <span>♥ <b>${p.likes}</b></span>
-        <span>💬 <b>${p.comments}</b></span>
-        <span>🔁 <b>${p.reposts}</b></span>
-        <span>👁 <b>${p.views}</b></span>
-      </div>`;
-  const draftHtml = p.draft ? `
-    <div class="draft-box">
-      <div class="dt"><span>중고나라 인턴 댓글 초안</span><button class="copy-btn" data-text="${encodeURIComponent(p.draft)}">복사</button></div>
-      <div class="dtxt">${p.draft}</div>
-    </div>` : '';
-  const noteCls = p.noteType==='risk' ? 'risk-note' : p.noteType==='verify' ? 'verify-note' : null;
-  const noteHtml = (p.noteType && p.note) ? `<div class="${noteCls}">⚠ ${p.note}</div>` : '';
-  return `<div class="post-card${riskCls}" style="cursor:default">
-      <div class="post-head">
-        <div class="post-id">
-          <span class="handle">@${p.handle}</span>
-          <span class="platform-tag" style="background:#000">X</span>
-          <span class="keyword-tag">#${p.keyword}</span>
-          <span class="time-tag">${p.timeLabel}</span>
-        </div>
-        ${reactionsHtml}
-      </div>
-      <div class="theme-tag">${p.theme}</div>
-      <div class="preview-card"><div class="ptxt">${p.summary}</div><div class="plink">${p.linkNote}</div></div>
-      ${noteHtml}
-      ${draftHtml}
-    </div>`;
-}
-
-function renderXPosts(){
-  const el = document.getElementById('x-list');
-  if(!el) return;
-  el.innerHTML = xPosts.map(xPostCardHtml).join('');
-  el.querySelectorAll('.copy-btn').forEach(btn=>{
-    btn.addEventListener('click', (e)=>{
-      e.stopPropagation();
-      const text = decodeURIComponent(btn.getAttribute('data-text'));
-      navigator.clipboard.writeText(text).then(()=>{
-        btn.textContent = '복사됨!';
-        btn.classList.add('copied');
-        setTimeout(()=>{ btn.textContent='복사'; btn.classList.remove('copied'); }, 1500);
-      });
-    });
-  });
 }
 
 function renderPosts(){
@@ -1142,15 +987,14 @@ const dailySnapshots = [
     kpis: [
       {lbl:'오늘 스캔 → 선정', val:'1건'},
       {lbl:'정렬 결론', val:'인기순 노출작 중 최근 7일 활동분만'},
-      {lbl:'채널별 커버리지', val:'Threads 정상 · X 계속 로그인 실패'},
+      {lbl:'채널별 커버리지', val:'Threads 정상'},
       {lbl:'안심결제·안심보상 대응 가능', val:'1/1건'},
       {lbl:'중고나라 직접 언급 불편글', val:'1/1건'}
     ],
     highlights: [
       '팔로워 4천명대 재테크 인플루언서가 "당근 택배 최고야... 중고나라 사요나라"라며 짧은 부정적 브랜드 비교를 남김(@juseek_) — 배송 편의성 비교 소재로 대응',
       '오늘은 전반적으로 신규 후보가 적었던 조용한 날 — 강도 높은 사기·분쟁 글은 확인되지 않음',
-      '어제(8/31) 확인된 대형 조직적 사기 경보 건은 계속 최우선 확인이 필요한 사안으로 남아있음',
-      'X(트위터)는 8/13부터 계속 로그인 실패 지속'
+      '어제(8/31) 확인된 대형 조직적 사기 경보 건은 계속 최우선 확인이 필요한 사안으로 남아있음'
     ],
     newCounts: {today:1, ref:0}
   },
@@ -1160,15 +1004,14 @@ const dailySnapshots = [
     kpis: [
       {lbl:'오늘 스캔 → 선정', val:'1건(최우선)'},
       {lbl:'정렬 결론', val:'인기순 노출작 중 최근 7일 활동분만'},
-      {lbl:'채널별 커버리지', val:'Threads 정상(로그인 없이 확인) · X 계속 로그인 실패'},
+      {lbl:'채널별 커버리지', val:'Threads 정상(로그인 없이 확인)'},
       {lbl:'안심결제·안심보상 대응 가능', val:'1/1건(내부 에스컬레이션 필요)'},
       {lbl:'중고나라 직접 언급 불편글', val:'1/1건'}
     ],
     highlights: [
       '<b>대형 조직적 변종 메신저 피싱 사기 경보</b> 확인(@reonier3299 외 다수 계정 동시 공유) — 3~5일간 피해자 100여 명, 피해액 1억~2억원 추정, 미성년자 피해 포함',
       '중고나라·당근·X·스레드·네이버카페를 미끼 채널로 명시 — 저희 플랫폼도 직접 거론됨, <b>정책/보안팀 최우선 에스컬레이션 필요</b>',
-      '8/27~8/30은 별도 배치 갱신을 하지 못했습니다 — 필요 시 추후 배치로 보완 가능',
-      'X(트위터)는 8/13부터 계속 로그인 실패 지속'
+      '8/27~8/30은 별도 배치 갱신을 하지 못했습니다 — 필요 시 추후 배치로 보완 가능'
     ],
     newCounts: {today:1, ref:0}
   },
@@ -1178,15 +1021,14 @@ const dailySnapshots = [
     kpis: [
       {lbl:'오늘 스캔 → 선정', val:'2건'},
       {lbl:'정렬 결론', val:'인기순 노출작 중 최근 7일 활동분만'},
-      {lbl:'채널별 커버리지', val:'Threads 정상 · X 계속 로그인 실패'},
+      {lbl:'채널별 커버리지', val:'Threads 정상'},
       {lbl:'안심결제·안심보상 대응 가능', val:'2/2건'},
       {lbl:'중고나라 직접 언급 불편글', val:'2/2건'}
     ],
     highlights: [
       '"위브마켓/오인홈샵" 계열 외부 사이트 유도 사기를 <b>저희 시스템이 자동 감지·제한</b>한 사례를 원 이용자가 직접 확인(@sor19se) — 8/14 이후 세 번째 확인된 동일 수법',
       '지난주(8/23) 야구 티켓 사기 피해자의 후속 게시물 확인(@hyen4530) — 선의의 이용자가 티켓을 무료 양도해 훈훈하게 마무리, 단 특정 계정을 사기범으로 지목한 부분은 명예훼손 리스크로 댓글에 반영하지 않음',
-      '8/24(월)·8/25(화)는 별도 배치 없이 이번 회차에 통합 반영 — 두 건 모두 8/25에 원문이 게시된 글',
-      'X(트위터)는 8/13부터 계속 로그인 실패 지속'
+      '8/24(월)·8/25(화)는 별도 배치 없이 이번 회차에 통합 반영 — 두 건 모두 8/25에 원문이 게시된 글'
     ],
     newCounts: {today:2, ref:0}
   },
@@ -1196,15 +1038,14 @@ const dailySnapshots = [
     kpis: [
       {lbl:'오늘 스캔 → 선정', val:'1건'},
       {lbl:'정렬 결론', val:'인기순 노출작 중 최근 7일 활동분만'},
-      {lbl:'채널별 커버리지', val:'Threads 정상 · X 계속 로그인 실패'},
+      {lbl:'채널별 커버리지', val:'Threads 정상'},
       {lbl:'안심결제·안심보상 대응 가능', val:'1/1건'},
       {lbl:'중고나라 직접 언급 불편글', val:'1/1건'}
     ],
     highlights: [
       '야구 티켓 양도 사기(7만원) 피해 확인(@hyen4530) — 안심결제 미이용 개인 계좌 선입금 유형',
       '같은 스레드 답글에서 "중고나라는 다 사기, 번개장터가 더 낫다"는 <b>부정적 브랜드 비교</b> 발견(@eun_bbc) — 반복 여부 모니터링 필요',
-      '주말(8/22~23) 전반적으로 신규 후보가 적었음 — 8/22(토)는 실행가치 있는 글을 찾지 못함',
-      'X(트위터)는 8/13부터 계속 로그인 실패 지속'
+      '주말(8/22~23) 전반적으로 신규 후보가 적었음 — 8/22(토)는 실행가치 있는 글을 찾지 못함'
     ],
     newCounts: {today:1, ref:0}
   },
@@ -1214,14 +1055,13 @@ const dailySnapshots = [
     kpis: [
       {lbl:'오늘 스캔 → 선정', val:'0건'},
       {lbl:'정렬 결론', val:'해당 없음'},
-      {lbl:'채널별 커버리지', val:'Threads 검색 깊이 한계 · X 로그인 실패'},
+      {lbl:'채널별 커버리지', val:'Threads 검색 깊이 한계'},
       {lbl:'안심결제·안심보상 대응 가능', val:'-'},
       {lbl:'중고나라 직접 언급 불편글', val:'-'}
     ],
     highlights: [
       '주말(토요일)이라 신규 게시물 밀도가 낮았고, Threads 최근검색 탭의 노출 깊이 한계(대략 48시간 내외)로 8/22에 정확히 대응하는 글을 특정하지 못함',
-      '8/15(광복절) 사례와 유사한 패턴 — 기록 누락이 아니라 검색 한계로 인한 공백',
-      'X(트위터)는 이 시점도 로그인 실패 상태였을 것으로 추정'
+      '8/15(광복절) 사례와 유사한 패턴 — 기록 누락이 아니라 검색 한계로 인한 공백'
     ],
     newCounts: {today:0, ref:0}
   },
@@ -1231,15 +1071,14 @@ const dailySnapshots = [
     kpis: [
       {lbl:'오늘 스캔 → 선정', val:'2건'},
       {lbl:'정렬 결론', val:'인기순 노출작 중 최근 7일 활동분만'},
-      {lbl:'채널별 커버리지', val:'Threads 정상 · X 계속 로그인 실패'},
+      {lbl:'채널별 커버리지', val:'Threads 정상'},
       {lbl:'안심결제·안심보상 대응 가능', val:'1/2건(1건은 타플랫폼 문의라 참고용 답변)'},
       {lbl:'중고나라 직접 언급 불편글', val:'1/2건'}
     ],
     highlights: [
       '중고나라·번개장터·배민에 <b>본인이 모르는 네이버 계정 접속 이력</b>을 발견한 계정 보안 우려 확인(@dayoon0713) — 계정보호팀 확인 필요',
       '번개장터 "안심번호" 택배 접수 방식 문의 확인(@gimmirim737) — 타플랫폼 질문이라 참고용으로만 답변',
-      '오늘은 신규 후보가 상대적으로 적었음(2건) — 최근검색 탭에 강도 높은 사기·분쟁 글이 뜸했던 날',
-      'X(트위터)는 8/13부터 계속 로그인 실패 지속'
+      '오늘은 신규 후보가 상대적으로 적었음(2건) — 최근검색 탭에 강도 높은 사기·분쟁 글이 뜸했던 날'
     ],
     newCounts: {today:2, ref:0}
   },
@@ -1249,7 +1088,7 @@ const dailySnapshots = [
     kpis: [
       {lbl:'오늘 스캔 → 선정', val:'4건'},
       {lbl:'정렬 결론', val:'인기순 노출작 중 최근 7일 활동분만'},
-      {lbl:'채널별 커버리지', val:'Threads 정상 · X 계속 로그인 실패'},
+      {lbl:'채널별 커버리지', val:'Threads 정상'},
       {lbl:'안심결제·안심보상 대응 가능', val:'3/4건(1건은 민감 안전이슈라 댓글 비권장)'},
       {lbl:'중고나라 직접 언급 불편글', val:'2/4건'}
     ],
@@ -1257,8 +1096,7 @@ const dailySnapshots = [
       '"위브마켓" 외부 사이트 유도 사기가 <b>새 피해자에게 반복</b>되고 있음을 원 제보자가 직접 확인(@eun_joo_k315) — 내부 처리 현황 재확인 필요',
       '"오인홈샵"이라는 <b>신종 카피캣 사기 사이트</b> 확인(@choco_saju_sweet) — 위브마켓과 동일한 수법(외부 사이트 유도)',
       '당근마켓 "바로구매" 배송완료 처리 오류 의심 사례 확인(@deyoiijoayo) — 배송완료·구매확정 분리 절차 설명 기회',
-      '당근마켓발 <b>여성 대상 스토킹 안전수칙</b> 공유 글 확인(@roy_25_00) — 민감 주제라 댓글 비권장, 안전팀 참고용으로만 반영',
-      'X(트위터)는 8/13부터 계속 로그인 실패 지속'
+      '당근마켓발 <b>여성 대상 스토킹 안전수칙</b> 공유 글 확인(@roy_25_00) — 민감 주제라 댓글 비권장, 안전팀 참고용으로만 반영'
     ],
     newCounts: {today:4, ref:0}
   },
@@ -1268,7 +1106,7 @@ const dailySnapshots = [
     kpis: [
       {lbl:'오늘 스캔 → 선정', val:'4건'},
       {lbl:'정렬 결론', val:'인기순 노출작 중 최근 7일 활동분만'},
-      {lbl:'채널별 커버리지', val:'Threads 정상 · X 계속 로그인 실패'},
+      {lbl:'채널별 커버리지', val:'Threads 정상'},
       {lbl:'안심결제·안심보상 대응 가능', val:'2/4건(2건은 중대사건·보도라 댓글 비권장)'},
       {lbl:'중고나라 직접 언급 불편글', val:'1/4건'}
     ],
@@ -1276,8 +1114,7 @@ const dailySnapshots = [
       '중고나라 사기 피해자의 <b>법적 후속조치(구약식 청구) 소식</b> 확인(@jiny_haem) — 끝까지 추적하는 사례, CS 접수 여부 확인 필요',
       '당근마켓 미개봉 맥북 배터리 불량 환불 분쟁 확인(@2ronana) — 100개 이상 댓글로 화제, 안심결제 비교 설명 기회',
       '<b>당근알바를 이용한 성폭행 사건 보도</b> 확인(@bear.5052825) — 중대 사건이라 댓글 비권장, 안전팀 참고 공유만 제안',
-      '<b>당근마켓에 도난품(상품권) 판매 시도 후 송치된 절도 사건 보도</b> 확인(@sbsnews) — 댓글 비권장, 도난품 유통 패턴으로만 참고',
-      'X(트위터)는 8/13부터 계속 로그인 실패 지속'
+      '<b>당근마켓에 도난품(상품권) 판매 시도 후 송치된 절도 사건 보도</b> 확인(@sbsnews) — 댓글 비권장, 도난품 유통 패턴으로만 참고'
     ],
     newCounts: {today:4, ref:0}
   },
@@ -1287,15 +1124,14 @@ const dailySnapshots = [
     kpis: [
       {lbl:'오늘 스캔 → 선정', val:'2건'},
       {lbl:'정렬 결론', val:'인기순 노출작 중 최근 7일 활동분만'},
-      {lbl:'채널별 커버리지', val:'Threads 정상 · X 계속 로그인 실패'},
+      {lbl:'채널별 커버리지', val:'Threads 정상'},
       {lbl:'안심결제·안심보상 대응 가능', val:'2/2건'},
       {lbl:'중고나라 직접 언급 불편글', val:'0/2건'}
     ],
     highlights: [
       '8/15(광복절 공휴일)~8/17 3일치를 한 번에 확인 — 8/15는 택배 접수가 줄어드는 공휴일이라 특이사항 없었음',
       '번개장터 배송 지연 문의 확인(@thankyousaram) — 광복절 연휴 전후 택배 중단 영향 가능성 있음',
-      '당근마켓 "구매자 보호 수수료" 결제 방식 문의 확인(@love4864861) — 안심결제 구조를 설명하기 좋은 소재',
-      'X(트위터)는 8/13부터 계속 로그인 실패 — 이번에도 확인하지 못함'
+      '당근마켓 "구매자 보호 수수료" 결제 방식 문의 확인(@love4864861) — 안심결제 구조를 설명하기 좋은 소재'
     ],
     newCounts: {today:2, ref:0}
   },
@@ -1305,7 +1141,7 @@ const dailySnapshots = [
     kpis: [
       {lbl:'오늘 스캔 → 선정', val:'2건'},
       {lbl:'정렬 결론', val:'인기순 노출작 중 최근 7일 활동분만'},
-      {lbl:'채널별 커버리지', val:'Threads 정상 · X 로그인 실패'},
+      {lbl:'채널별 커버리지', val:'Threads 정상'},
       {lbl:'안심결제·안심보상 대응 가능', val:'0/2건(정보성/공익성 글이라 직접 대응 아님)'},
       {lbl:'중고나라 직접 언급 불편글', val:'0/2건'}
     ],
@@ -1322,14 +1158,13 @@ const dailySnapshots = [
     kpis: [
       {lbl:'오늘 스캔 → 선정', val:'0건'},
       {lbl:'정렬 결론', val:'해당 없음'},
-      {lbl:'채널별 커버리지', val:'Threads 검색 깊이 한계 · X 로그인 실패'},
+      {lbl:'채널별 커버리지', val:'Threads 검색 깊이 한계'},
       {lbl:'안심결제·안심보상 대응 가능', val:'-'},
       {lbl:'중고나라 직접 언급 불편글', val:'-'}
     ],
     highlights: [
       '8/15는 광복절 공휴일 — 택배 접수 자체가 줄어드는 날로, 실행가치 있는 신규 글을 찾지 못함',
-      'Threads 최근검색 탭의 노출 깊이가 대략 48시간 내외로 제한적이라, 3일치를 한 번에 배치 확인하는 과정에서 8/15에 정확히 대응하는 글을 특정하지 못함(기록 누락이 아니라 검색 한계로 인한 공백)',
-      'X(트위터)는 이 시점도 로그인 실패 상태였을 것으로 추정(8/13부터 지속된 패턴)'
+      'Threads 최근검색 탭의 노출 깊이가 대략 48시간 내외로 제한적이라, 3일치를 한 번에 배치 확인하는 과정에서 8/15에 정확히 대응하는 글을 특정하지 못함(기록 누락이 아니라 검색 한계로 인한 공백)'
     ],
     newCounts: {today:0, ref:0}
   },
@@ -1339,14 +1174,13 @@ const dailySnapshots = [
     kpis: [
       {lbl:'오늘 스캔 → 선정', val:'4건'},
       {lbl:'정렬 결론', val:'인기순 노출작 중 최근 7일 활동분만'},
-      {lbl:'채널별 커버리지', val:'Threads 정상 · X 이틀 연속 로그인 실패'},
+      {lbl:'채널별 커버리지', val:'Threads 정상'},
       {lbl:'안심결제·안심보상 대응 가능', val:'4/4건'},
       {lbl:'중고나라 직접 언급 불편글', val:'1/4건'}
     ],
     highlights: [
       '중고나라 판매글을 <b>외부 사이트("위브마켓")로 유도해 선입금을 요구</b>하는 신종 사기 시도 확인(@eun_joo_k315) — 실제 피해는 없었던 미수 사례',
-      '"안전결제 확인" 문구로 위장한 <b>피싱 링크 경고</b> 확인(@sagi_factcheck) — 카톡·문자로 오는 결제확인 링크는 항상 가짜라는 점을 댓글에도 반복 강조 필요',
-      'X(트위터)는 <b>이틀 연속(8/13, 8/14) 로그인 실패</b> — 접근성이 여전히 예측 불가능함을 재확인, X 상세 탭은 8/10 스냅샷 유지'
+      '"안전결제 확인" 문구로 위장한 <b>피싱 링크 경고</b> 확인(@sagi_factcheck) — 카톡·문자로 오는 결제확인 링크는 항상 가짜라는 점을 댓글에도 반복 강조 필요'
     ],
     newCounts: {today:4, ref:0}
   },
@@ -1356,13 +1190,12 @@ const dailySnapshots = [
     kpis: [
       {lbl:'오늘 스캔 → 선정', val:'4건'},
       {lbl:'정렬 결론', val:'인기순 노출작 중 최근 7일 활동분만'},
-      {lbl:'채널별 커버리지', val:'Threads 정상 · X 오늘 로그인 실패'},
+      {lbl:'채널별 커버리지', val:'Threads 정상'},
       {lbl:'안심결제·안심보상 대응 가능', val:'4/4건'},
       {lbl:'중고나라 직접 언급 불편글', val:'1/4건'}
     ],
     highlights: [
       '중고나라 채팅 탑재 자체 AI가 <b>연락처 유도 사기 시도를 실시간 차단</b>한 사례 확인(@seo_u_eq) — 안전장치가 실제로 작동한 좋은 홍보 소재',
-      'X(트위터)는 오늘 로그인이 되지 않아 <b>확인 못함</b> — 8/10에는 예외적으로 접근됐던 것과 대비, 접근성이 여전히 예측 불가능함을 재확인',
       '중고나라 직접 언급 비율이 <b>5/8건 → 1/4건</b>으로 하락 — 표본이 하루 단위로 크게 변동한다는 점이 다시 확인됨, 추세 판단은 계속 보류'
     ],
     newCounts: {today:4, ref:0}
@@ -1373,13 +1206,12 @@ const dailySnapshots = [
     kpis: [
       {lbl:'오늘 스캔 → 선정', val:'8건'},
       {lbl:'정렬 결론', val:'인기순 노출작 중 최근 7일 활동분만'},
-      {lbl:'채널별 커버리지', val:'Threads 정상 · X 오늘은 접근 가능(이례적)'},
+      {lbl:'채널별 커버리지', val:'Threads 정상'},
       {lbl:'안심결제·안심보상 대응 가능', val:'6/8건'},
       {lbl:'중고나라 직접 언급 불편글', val:'5/8건'}
     ],
     highlights: [
       '중고나라 직접 언급 불편글이 <b>0건 → 5건</b>으로 급증 — 다만 이틀치 표본이라 추세로 단정하기엔 이름, 최소 5영업일 누적 확인 필요',
-      'X(트위터) 검색이 오늘은 로그인월 없이 예외적으로 접근됨 — <b>재현성 없음</b>, 내일 다시 막힐 수 있음을 전제로 운영',
       '안심결제 판매수수료 인상(1%→2.5%) 관련 고객 불만 확인 — 댓글 대응 대상이 아니라 <b>정책/PM팀 내부 공유</b> 필요 항목으로 분류'
     ],
     newCounts: {today:2, ref:6}
@@ -1448,15 +1280,12 @@ function dayLabel(dateStr){
 function postsCollectedOn(dateStr){
   return posts.filter(p => p.collectedDate === dateStr);
 }
-function xPostsCollectedOn(dateStr){
-  return xPosts.filter(p => p.collectedDate === dateStr);
-}
 function hasCollectedRecord(dateStr){
-  return postsCollectedOn(dateStr).length > 0 || xPostsCollectedOn(dateStr).length > 0;
+  return postsCollectedOn(dateStr).length > 0;
 }
 
 function dayCount(dateStr){
-  return postsCollectedOn(dateStr).length + xPostsCollectedOn(dateStr).length;
+  return postsCollectedOn(dateStr).length;
 }
 
 function renderDayChips(){
@@ -1493,7 +1322,7 @@ function wirePostCardInteractions(container){
   });
 }
 
-/* 그날(currentDay)의 스레드 상세 + X 상세를 그대로 재현합니다 — 게시물 발행일(sortTime)이 아니라
+/* 그날(currentDay)의 스레드 상세를 그대로 재현합니다 — 게시물 발행일(sortTime)이 아니라
    그 게시물을 수집·큐레이션해서 대시보드에 올린 날짜(collectedDate) 기준입니다. */
 function renderDailyCollected(){
   const noRecordEl = document.getElementById('day-no-record');
@@ -1520,19 +1349,10 @@ function renderDailyCollected(){
   threadsEmpty.style.display = dayThreads.length ? 'none' : 'block';
   wirePostCardInteractions(todayList);
   wirePostCardInteractions(refList);
-
-  // X 상세 재현
-  const dayX = xPostsCollectedOn(currentDay);
-  const xList = document.getElementById('daily-x-list');
-  const xEmpty = document.getElementById('daily-x-empty');
-  xList.innerHTML = dayX.map(xPostCardHtml).join('');
-  xEmpty.style.display = dayX.length ? 'none' : 'block';
-  wirePostCardInteractions(xList);
 }
 
 renderChips();
 renderPosts();
-renderXPosts();
 renderDayChips();
 renderDaySummary();
 renderDailyCollected();
